@@ -19,6 +19,6 @@ int main(int argc, char *argv[])
 
 	// 잘못된 사용 예
 	printf("\n[잘못된 사용 예]\n");
-	printf("%#x -> %#x\n", x1, htonl(x1));
+	printf("%#x -> %#x\n", x1, htons(x1));
 	return 0;
 }
